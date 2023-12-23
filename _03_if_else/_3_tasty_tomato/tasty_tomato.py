@@ -14,6 +14,10 @@ canvas.grid()
 #    You can give them up to three choices
 color = simpledialog.askstring(title="bob", prompt="what color would you like?")
 # 2. Use if-else statements to draw the tomato in the color that they chose
+
 #    You can modify the code below or draw your own tomato
-canvas.create_oval(75, 200, 400, 450, fill="red", outline="")
-canvas.create_oval(200, 200, 525, 450, fill="red", outline="")
+canvas.create_rectangle(290, 150, 310, 250, fill="green")
+canvas.create_oval(75, 200, 400, 450, fill=color, outline=color)
+canvas.create_oval(200, 200, 525, 450, fill=color, outline=color)
+
+root.mainloop()
