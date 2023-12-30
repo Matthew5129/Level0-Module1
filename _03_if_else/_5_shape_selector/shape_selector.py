@@ -9,9 +9,24 @@ if __name__ == '__main__':
     window.withdraw()
     
     # Make a new turtle
-    
+    bobby = turtle.Turtle()
     # Ask the user what shape they want to draw and store it in a variable
-    
+    shape = simpledialog.askstring(title="user", prompt="Choose a shape and store it in a variable")
+
+    if shape =="circle":
+        bobby.speed(10)
+        bobby.circle(radius=100)
     # Draw the shape requested by the user using if-elif-else statements
-    
+    if shape =="square":
+        bobby.speed(10)
+        for i in range(4):
+            bobby.forward(100)
+            bobby.right(90)
+    if shape =="triangle":
+        bobby.speed(10)
+        bobby.forward(100)
+        bobby.right(90)
+
+
     # Call the turtle .done() method
+    turtle.done()
