@@ -7,26 +7,24 @@ from tkinter import messagebox, simpledialog, Tk
 if __name__ == '__main__':
     window = Tk()
     window.withdraw()
-    
+
     # Make a new turtle
-    bobby = turtle.Turtle()
+    Teddy = turtle.Turtle()
     # Ask the user what shape they want to draw and store it in a variable
     shape = simpledialog.askstring(title="user", prompt="Choose a shape and store it in a variable")
 
     if shape =="circle":
-        bobby.speed(10)
-        bobby.circle(radius=100)
+        Teddy.speed(5)
+        Teddy.circle(radius=100)
     # Draw the shape requested by the user using if-elif-else statements
-    if shape =="square":
-        bobby.speed(10)
+    elif shape =="square":
+        Teddy.speed(5)
         for i in range(4):
-            bobby.forward(100)
-            bobby.right(90)
-    if shape =="triangle":
-        bobby.speed(10)
-        bobby.forward(100)
-        bobby.right(90)
-
-
+            Teddy.forward(100)
+            Teddy.right(90)
+    elif shape =="triangle":
+        for i in range(3):
+            Teddy.forward(100)
+            Teddy.right(120)
     # Call the turtle .done() method
     turtle.done()
