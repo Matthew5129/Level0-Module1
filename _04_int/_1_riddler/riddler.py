@@ -1,22 +1,28 @@
-import turtle
-from tkinter import messagebox, simpledialog, Tk
-
+from tkinter import messagebox, simpledialog, messagebox
 """
 * Write a python program that asks the user a minimum of 3 riddles.
-simpledialog.askstring(title="What do you call a chic) 
-* You can look at riddles.com if you don't already know any riddles.
+    user = simpledialog.askstring(title="user", prompt="What did the scientist get when he crossed a chicken and a cow?")
+    if user=="Roost Beef!":
+        messagebox.showinfo(title="user", message="Good!")
+    else:
+        messagebox.showinfo(title="user", message="Wrong!")
 
-* Collect the response of each riddle from the user and compare their
-  answers to the correct answer. 
+    
+    user = simpledialog.askstring(title="user", prompt="Imagine you are in the days of the dinosaurs, and one is chasing after you, about to eat you... What do you do?")
+    if user=="Easy, Stop imagining!":
+        messagebox.showinfo(title="user", message="Nice!")
+    else:  
+        messagebox.showinfo(title="user", message="Wrong!")
 
-* Use a variable to keep track of the correctly answered riddles
+
+    user = simpledialog.askstring(title="user", prompt="What do you call a stampede of giant ducks?")
+    if user=="An earthquack!":
+        messagebox.showinfo(title="user", message="Awesome!")
+    else:
+        messagebox.showinfo(title="user", message="Wrong!")
+    
+
 
 * After all the riddles have been asked, tell the user how many they got
-  correct!
+  correct
 """
-
-user = simpledialog.askstring(title="user", prompt="What do you call a chicken with a bad sunburn?")
-if user =="Fried Chicken!":
-    messagebox.showinfo("How did u get dat right? Yer a pro at dis!")
-else:
-    messagebox.showinfo("Wrong!")
