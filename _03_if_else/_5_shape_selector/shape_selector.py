@@ -13,16 +13,16 @@ if __name__ == '__main__':
     # Ask the user what shape they want to draw and store it in a variable
     shape = simpledialog.askstring(title="user", prompt="Choose a shape and store it in a variable")
 
-    if shape =="circle":
+    if shape == "circle":
         bobby.speed(10)
         bobby.circle(radius=100)
     # Draw the shape requested by the user using if-elif-else statements
-    if shape =="square":
+    if shape == "square":
         bobby.speed(10)
         for i in range(4):
             bobby.forward(100)
             bobby.right(90)
-    if shape =="triangle":
+    if shape == "triangle":
         for i in range(3):
             bobby.speed(-0)
             bobby.forward(110)

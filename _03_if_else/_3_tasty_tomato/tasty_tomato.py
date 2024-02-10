@@ -19,5 +19,4 @@ color = simpledialog.askstring(title="bob", prompt="what color would you like?")
 canvas.create_rectangle(290, 150, 310, 250, fill="green")
 canvas.create_oval(75, 200, 400, 450, fill=color, outline=color)
 canvas.create_oval(200, 200, 525, 450, fill=color, outline=color)
-
 root.mainloop()
