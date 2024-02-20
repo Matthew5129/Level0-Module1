@@ -1,8 +1,11 @@
-"""
-* Write a Python program that asks the user for two numbers.
+from tkinter import messagebox, simpledialog, Tk
+window = Tk()
+window.withdraw()
+first_number = simpledialog.askinteger(title="user", prompt="Give me one random number")
+second_number = simpledialog.askfloat(title="user", prompt="Give me a second number")
+user = simpledialog.askstring(title="user", prompt="Would you like to add, subtract, multiply, or divide?")
+if user == "multiply":
+    messagebox.showinfo(None, first_number * second_number)
 
-* Then ask the user if the would like to add, subtract, multiply, or divide.
 
-* Use if-else statements to provide the desired math operation on the numbers
-  and display the result.
-"""
+window.mainloop()

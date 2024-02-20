@@ -8,10 +8,10 @@ if __name__ == '__main__':
     elif user == "Maddox":
         messagebox.showinfo(title="user", message="You are awesome and sus and abusive sometimes! (no offense)")
     elif user == "Hello":
-        messagebox.showinfo(title="user", message="")
+        messagebox.showinfo(title="user", message="Hello")
     elif user == "Ben":
         messagebox.showinfo(title="You are the suspicious one who needs more improved behavior!")
     elif user == "Please stop asking me that it's starting to annoy me!":
-        messagebox.showinfo(title="user", message="I understand you're feelings. I'll try not asking that question anymore.")
+        messagebox.showinfo(title="user", message="Ok since you are annoyed i will stop now. PS i am an AI")
     else:
         messagebox.showinfo(title="user", message="Sorry, that is not one of the names. Try again!")

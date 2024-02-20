@@ -27,7 +27,7 @@ else:
     messagebox.showinfo(title="user", message="Wrong!")
     score = -2
 
-user = simpledialog.askstring(title="Question 4", prompt="Why did the chicken egg laugh when he performed funny jokes with himself with his ventriloquist dummy?")
+user = simpledialog.askstring(title="Question 4", prompt="Why did the chicken egg laugh when he performed funny jokes with his ventriloquist dummy?")
 if user == "He cracked himself up":
     messagebox.showinfo(title="user", message="Well done!")
     score = 4

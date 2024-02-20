@@ -24,7 +24,7 @@ if __name__ == '__main__':
             bobby.right(90)
     if shape == "triangle":
         for i in range(3):
-            bobby.speed(-0)
+            bobby.speed(5)
             bobby.forward(110)
             bobby.right(120)
     # Call the turtle .done() method

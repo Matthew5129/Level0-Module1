@@ -13,8 +13,5 @@ if user == "area":
 elif user == "circumference":
     value = 2*math.pi*radius
 messagebox.showinfo(title="user", message=value)
-# If they choose area, display the area of the circle using the radius.
-# Otherwise, display the circumference of the circle using the radius.
-
 # Area = πr^2
 # Circumference = 2πr
