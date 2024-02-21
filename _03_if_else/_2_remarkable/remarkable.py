@@ -6,7 +6,7 @@ if __name__ == '__main__':
     if user == "Matthew":
         messagebox.showinfo(title="user", message="You are awesome!")
     elif user == "Maddox":
-        messagebox.showinfo(title="user", message="You are awesome and sus and abusive sometimes! (no offense)")
+        messagebox.showinfo(title="user", message="You are awesome and sus")
     elif user == "Hello":
         messagebox.showinfo(title="user", message="Hello")
     elif user == "Ben":
